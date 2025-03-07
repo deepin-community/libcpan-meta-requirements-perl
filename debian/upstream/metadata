@@ -1,7 +1,6 @@
 ---
 Archive: CPAN
 Bug-Database: https://github.com/Perl-Toolchain-Gang/CPAN-Meta-Requirements/issues
-Contact: David Golden <dagolden@cpan.org>, Ricardo Signes <rjbs@cpan.org>
-Name: CPAN-Meta-Requirements
+Bug-Submit: https://github.com/Perl-Toolchain-Gang/CPAN-Meta-Requirements/issues/new
 Repository: https://github.com/Perl-Toolchain-Gang/CPAN-Meta-Requirements.git
 Repository-Browse: https://github.com/Perl-Toolchain-Gang/CPAN-Meta-Requirements
