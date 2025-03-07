@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: CPAN-Meta-Requirements
 Source: https://metacpan.org/release/CPAN-Meta-Requirements
 Upstream-Contact: David Golden <dagolden@cpan.org>
@@ -9,7 +9,7 @@ Copyright: 2010, David Golden <dagolden@cpan.org>
 License: Artistic or GPL-1+
 
 Files: debian/*
-Copyright: 2012-2015, gregor herrmann <gregoa@debian.org>
+Copyright: 2012-2023, gregor herrmann <gregoa@debian.org>
 License: Artistic or GPL-1+
 
 License: Artistic

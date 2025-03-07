@@ -1,3 +1,46 @@
+libcpan-meta-requirements-perl (2.143-1) unstable; urgency=medium
+
+  * Import upstream version 2.143.
+  * Update years of packaging copyright.
+  * Update alternative (test) dependencies.
+  * Declare compliance with Debian Policy 4.6.2.
+  * Set Rules-Requires-Root: no.
+  * Annotate test-only build dependencies with <!nocheck>.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 26 Jun 2023 20:16:11 +0200
+
+libcpan-meta-requirements-perl (2.140-2) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Remove constraints unnecessary since stretch:
+    + Build-Depends-Indep: Drop versioned constraint on libversion-perl and
+      perl.
+    + libcpan-meta-requirements-perl: Drop versioned constraint on
+      libversion-perl and perl in Depends.
+    + libcpan-meta-requirements-perl: Drop versioned constraint on
+      libcpan-meta-perl in Replaces.
+    + libcpan-meta-requirements-perl: Drop versioned constraint on
+      libcpan-meta-perl in Breaks.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 12 Jun 2022 22:04:41 +0100
+
 libcpan-meta-requirements-perl (2.140-1) unstable; urgency=medium
 
   * Import upstream version 2.140.
